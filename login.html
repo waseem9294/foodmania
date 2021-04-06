@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<html>
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>  
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'> 
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="bg">
+        <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+            <a class="navbar-brand" href="#">FoodMania</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+              </ul> 
+              <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AboutUs.html" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html" target="_blank">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html" target="_blank">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html" target="_blank">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html" target="_blank">login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="reservetable.html" target="_blank">Table Booking</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </header>
+	
+
+<div class="login-page">
+  <div class="form">
+    <form>
+      <lottie-player src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"  background="transparent"  speed="1"  style="justify-content: center;" loop  autoplay></lottie-player>
+      <input type="text" placeholder="&#xf007;  username"/>
+      <input type="password" id="password" placeholder="&#xf023;  password"/>
+      <i class="fas fa-eye" onclick="show()"></i> 
+      <br>
+      <br>
+      <button>LOGIN</button>
+      <p class="message"></p>
+    </form>
+
+    <form class="login-form">
+      <button type="button" onclick="window.location.href='signup.html'">SIGN UP</button>
+    </form>
+  </div>
+</div>
+
+  <script>
+    function show(){
+      var password = document.getElementById("password");
+      var icon = document.querySelector(".fas")
+
+      if(password.type === "password"){
+        password.type = "text";
+      }
+      else {
+        password.type = "password";
+      }
+    };
+  </script>
+</body>
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
